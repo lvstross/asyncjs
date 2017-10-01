@@ -1,0 +1,36 @@
+==The Stack and the Heap==
+
+//What is the Stack?//
+
+- It is an ordered data structure and keeps track of function invocations.
+
+//How Your Code changes the Stack//
+
+- Whenever you invoke a function, the details of the invocation are
+saved to the top of the stack (pushed to the top)
+- Whenever a function returns, the information about the invocation
+is taken off the top of the stack (popped off of the top).
+
+**Definition**
+Stack: An ordered set of stack frames. Most recently invoked function
+is on th top of the stack. the bottom of the stack is the first function
+invoked. The stack is processed from top to bottom. 
+
+Heap: An area in memory where the data is stored.
+
+// By value or by reference //
+
+The object is ccreated in the heap. obj is a reference to the object.
+
+<script>
+    var obj = {
+        firstname: "Levi",
+        Lastname: "Gonzales"
+    };
+</script>
+
+New Data is not created when we reference the obj that is already placed in memory.
+
+<script>
+    var referenceCopy = obj;
+</script>

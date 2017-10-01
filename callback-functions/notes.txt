@@ -1,0 +1,1 @@
+Higher order function: A function that accepts a callback as a parameter.
