@@ -1,0 +1,15 @@
+===== Disadvantages of Nested Callbacks =====
+
+- The code is hard to read
+- Logic is difficult to reason about
+- The code is not modular
+
+===== Promise chaining Advantages =====
+- Allow multiple .then functions to be chained onto a promise without having to 
+nest some many callbacks within callbacks. 
+
+===== Promises in Practice =====
+It is useful to understand how promies work (resolve, reject),
+but in practice you will often use promises that returned to you.
+In most Ajax driven code, a promise is returned to you to were you can 
+then use .then and .catch to handle your code. 
