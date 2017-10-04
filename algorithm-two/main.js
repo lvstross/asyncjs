@@ -1,6 +1,6 @@
-function countDown(time){
+function countDown(seconds){
     // store time into a variable.
-    var num = time;
+    var num = seconds;
     // start setInterval with an id
     var intId = setInterval(() => {
         // log num
