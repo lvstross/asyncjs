@@ -31,7 +31,7 @@ function parseJSON(res){
 }
 function updateProfile(data){
     avatar.src = data.results[0].picture.medium;
-    fname.innerText = data.results[0].name.first;
+    fname.innerText = data.results[0].name.first + " " + data.results[0].name.last;
     uname.innerText = data.results[0].login.username;
     email.innerText = data.results[0].email;
     city.innerText = data.results[0].location.city;
