@@ -1,0 +1,36 @@
+===== AJAX =====
+
+Asynchronous
+JavaScript
+And
+XML
+
+Ajax is an approach to web applications where the page does not have to reload in order
+to display new content. Rather, javascript in the background performs an http request to
+a server, grabs more data and then appends it to the page. This idea is what lead to what is now known
+as SPA's (Single Page Applications) where a website can seemingly have many different pages
+but instead of loading differnt .html files for each page, javascript loads different content onto 
+one .html file based on events liseners and route perameters. 
+
+Though XML is a lagecy data format in contrast to it's more modern sibling, JSON, 
+it still fits best in the name because let's all be honest
+about our obsession with clearning products ;) ehem... I mean cool naming of things. 
+
+===== XML and JSON =====
+
+XML example:
+
+<pin>
+    <title>Adorable Maine Coon</title>
+    <author>Cindy S</author>
+    <num-saves>1800</num-saves>
+</pin>
+
+JSON example:
+
+'pin': {
+    'title': 'Adorable Maine Coon',
+    'author': 'Cindy S',
+    'num-savees': 1800
+}
+ 

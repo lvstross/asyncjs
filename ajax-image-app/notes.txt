@@ -1,0 +1,7 @@
+Note:
+
+When I first made the request I recieved a DOMstring from the api. With that DOMstring, I'm not
+able to use any of the data unless I did some crazy pattern matching. Rather, I realized that I needed
+to convert the DOMstring to a JSON object by using JSON.parse();. This then converted the DOMstring to 
+a JSON response and then I was able to use the dot notation to select the message property for the src attribute
+of my image. 
