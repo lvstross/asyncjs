@@ -1,0 +1,12 @@
+// syntax
+
+$.ajax({
+    method: "GET",
+    url: "some.api.com",
+})
+.done(function(res){
+    console.log(res);
+})
+.fail(function(error){
+    console.log(error);
+});
