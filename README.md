@@ -6,7 +6,7 @@ of JavaScript in general as well as it's asyncronous features.</p>
 <p>Feel free to poke around as there are a lot of code examples for varying topics. I've also taken 
 notes on many of the topics and those are found in the notes.text files.</p>
 
-#What will you find in this repo?
+# What will you find in this repo?
 
 <p>This repo is primarily driven by asyncronous topics in javascript, such as the aging XHR object, 
 the newer Fetch API as well as two popular ajax libraries; jQuery and Axios. I go over the pros and 
